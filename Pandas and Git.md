@@ -105,7 +105,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - What is the default text editor for the Bash shell with a Windows-based Git install?
 
     - [ ] Emacs
-    - [ ] Vim
+    - **[ ] Vim**
     - [ ] Notepad++
     - [ ] Bash
 
