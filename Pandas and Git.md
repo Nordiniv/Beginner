@@ -8,34 +8,34 @@ Pandas is a Python library used for working with data sets, you should know this
 
 Speaking of *analyzing, cleaning, exploring, and manipulating* data, what functions can you use for each of these tasks? 🤔:
 - **A**nalyze data?
-    `describe()`: Provides descriptive statistics for a DataFrame.
-    `corr()`: Calculates the correlation between two or more columns.
-    `cov()`: Calculates the covariance between two or more columns.
-    `plot()`: Plots the data of a DataFrame.
-    `pivot_table()`: Creates a pivot table from a DataFrame.
-    `groupby()`: Groups data by one or more columns and performs aggregate operations on the groups.
+    `describe()`: Provides descriptive statistics for a DataFrame.<br>
+    `corr()`: Calculates the correlation between two or more columns.<br>
+    `cov()`: Calculates the covariance between two or more columns.<br>
+    `plot()`: Plots the data of a DataFrame.<br>
+    `pivot_table()`: Creates a pivot table from a DataFrame.<br>
+    `groupby()`: Groups data by one or more columns and performs aggregate operations on the groups.<br>
 - **C**lean data?
-    `dropna()`: Drops rows or columns that contain missing values.
-    `fillna()`: Fills missing values with a specified value.
-    `replace()`: Replaces specific values with a different value.
-    `unique()`: Returns the unique values in a column.
-    `value_counts()`: Counts the number of occurrences of each value in a column.
-    `isnull()`: Returns a Boolean value indicating whether a value is missing.
+    `dropna()`: Drops rows or columns that contain missing values.<br>
+    `fillna()`: Fills missing values with a specified value.<br>
+    `replace()`: Replaces specific values with a different value.<br>
+    `unique()`: Returns the unique values in a column.<br>
+    `value_counts()`: Counts the number of occurrences of each value in a column.<br>
+    `isnull()`: Returns a Boolean value indicating whether a value is missing.<br>
 - **E**xplore data?
-    `head()`: Returns the first few rows of a DataFrame.
-    `tail()`: Returns the last few rows of a DataFrame.
-    `info()`: Provides information about the DataFrame, such as the number of rows and columns, the data types of the columns, and the    missing values.
-    `describe()`: Provides descriptive statistics for a DataFrame.
-    `hist()`: Plots the distribution of the values in a column.
-    `boxplot()`: Plots the distribution of the values in a column, along with the outliers.
+    `head()`: Returns the first few rows of a DataFrame.<br>
+    `tail()`: Returns the last few rows of a DataFrame.<br>
+    `info()`: Provides information about the DataFrame, such as the number of rows and columns, the data types of the columns, and the    missing values.<br>
+    `describe()`: Provides descriptive statistics for a DataFrame.<br>
+    `hist()`: Plots the distribution of the values in a column.<br>
+    `boxplot()`: Plots the distribution of the values in a column, along with the outliers.<br>
 
 - **M**anipulate data?
-    `merge()`: Combines two or more DataFrames based on common columns.
-    `join()`: Combines two or more DataFrames based on common rows.
-    `concat()`: Combines two or more DataFrames along a common axis.
-    `reshape()`: Changes the shape of a DataFrame.
-    `sort_values()`: Sorts a DataFrame by one or more columns.
-    `apply()`: Applies a function to each row or column of a DataFrame.
+    `merge()`: Combines two or more DataFrames based on common columns.<br>
+    `join()`: Combines two or more DataFrames based on common rows.<br>
+    `concat()`: Combines two or more DataFrames along a common axis.<br>
+    `reshape()`: Changes the shape of a DataFrame.<br>
+    `sort_values()`: Sorts a DataFrame by one or more columns.<br>
+    `apply()`: Applies a function to each row or column of a DataFrame.<br>
 **Fill the table below:**
   
 
@@ -102,13 +102,13 @@ print(c)
 
     - [ ]  `np.tensordot()`
     - [ ]  `np.dot()`
-    - [True]  `np.einsum()`
+    - \[True\]  `np.einsum()`
     - [ ]  `np.outer()`
 
 - The `np.outer` function is primarily intended for:
 
     - [ ]  Computing the tensor dot product of two arrays.
-    - [True]  Computing the outer product of two arrays.
+    - \[True\]  Computing the outer product of two arrays.
     - [ ]  Computing the inner product of two arrays.
     - [ ]  Computing the cross product of two arrays.
 
@@ -141,7 +141,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - What is the default text editor for the Bash shell with a Windows-based Git install?
 
     - [ ] Emacs
-    - [True] Vim
+    - \[True\] Vim
     - [ ] Notepad++
     - [ ] Bash
 
@@ -150,19 +150,19 @@ I know you are all familiar with Git, but let's see how much you know about it! 
     - [ ] Python
     - [ ] Java Development Kit 1.8 or newer
     - [ ] Apache Maven
-    - [True] Nothing
+    - \[True\] Nothing
 
 
 - After you install Git and prior to issuing the first commit, which two configuration properties does the tool expect to be configured?
 
-    - [True] username and email address
+    - \[True\] username and email address
     - [ ] username and password
     - [ ] email address and password
     - [ ] username and IP address
 
 - Which of the following commands is used to create a new Git repository?
 
-    - [True] git init
+    - \[True\] git init
     - [ ] git clone
     - [ ] git commit
     - [ ] git push
@@ -170,13 +170,13 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - Which of the following commands is used to clone a remote Git repository?
 
     - [ ] git init
-    - [True] git clone
+    - \[True\] git clone
     - [ ] git commit
     - [ ] git push
 
 - Which of the following commands is used to stage a file for inclusion in the next commit?
 
-    - [True] git add
+    - \[True\] git add
     - [ ] git commit
     - [ ] git push
     - [ ] git pull
@@ -184,7 +184,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - Which of the following commands is used to commit staged changes to the local repository?
 
     - [ ] git add
-    - [True] git commit
+    - \[True\] git commit
     - [ ] git push
     - [ ] git pull
 
@@ -192,7 +192,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 
     - [ ] git add
     - [ ] git commit
-    - [True] git push
+    - \[True\] git push
     - [ ] git pull
 
 - Who is attributed with inventing Git?
@@ -200,7 +200,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
     - [ ] Junio Hamano
     - [ ] James Gosling
     - [ ] Kohsuke Kawaguchi
-    - [True] Linus Torvalds
+    - \[True\] Linus Torvalds
 
 - After you initialize a new Git repository and create a file named git-quiz.html, which of the following commands will not work if issued?
 
@@ -219,13 +219,13 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - Under which circumstance should you use a single dash within a bash command, as opposed to a double dash?
     - You should use a single dash (-) within a bash command when you are specifying a single-character option. For example, the -n option tells the grep command to print only the lines that match the pattern, but not the lines themselves.
     - You should use a double dash (--) within a bash command when you are specifying a multi-character option. For example, the --help option tells the grep command to print a help message.
-    
+
 - Which vendor acquired GitHub for $7.5 billion in June 2018?
     - Microsoft
 You may want to check [this](https://www.youtube.com/watch?v=Q6G-J54vgKc&t=16813s)
 
 ## Problem Solving 🤔
-[A. Panoramix's Prediction](https://codeforces.com/problemset/problem/80/A)
-    [The link](https://codeforces.com/submissions/ghada_ali_123#)
-[A. Again Twenty Five!](https://codeforces.com/problemset/problem/630/A)
+[A. Panoramix's Prediction](https://codeforces.com/problemset/problem/80/A)<br>
+    [The link](https://codeforces.com/submissions/ghada_ali_123#)<br>
+[A. Again Twenty Five!](https://codeforces.com/problemset/problem/630/A)<br>
     [The link](https://codeforces.com/submissions/ghada_ali_123#)
