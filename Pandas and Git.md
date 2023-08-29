@@ -228,4 +228,4 @@ You may want to check [this](https://www.youtube.com/watch?v=Q6G-J54vgKc&t=16813
 [A. Panoramix's Prediction](https://codeforces.com/problemset/problem/80/A)<br>
     [The link](https://codeforces.com/submissions/ghada_ali_123#)<br>
 [A. Again Twenty Five!](https://codeforces.com/problemset/problem/630/A)<br>
-    [The link](https://codeforces.com/submissions/ghada_ali_123#)
+    [The link](https://codeforces.com/submissions/ghada_ali_123#)<br>
