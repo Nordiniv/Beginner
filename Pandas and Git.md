@@ -102,13 +102,13 @@ print(c)
 
     - [ ]  `np.tensordot()`
     - [ ]  `np.dot()`
-    - \[True\]  `np.einsum()`
+    - `np.einsum()`
     - [ ]  `np.outer()`
 
 - The `np.outer` function is primarily intended for:
 
     - [ ]  Computing the tensor dot product of two arrays.
-    - \[True\]  Computing the outer product of two arrays.
+    - Computing the outer product of two arrays.
     - [ ]  Computing the inner product of two arrays.
     - [ ]  Computing the cross product of two arrays.
 
@@ -141,7 +141,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - What is the default text editor for the Bash shell with a Windows-based Git install?
 
     - [ ] Emacs
-    - \[True\] Vim
+    - Vim
     - [ ] Notepad++
     - [ ] Bash
 
@@ -150,19 +150,19 @@ I know you are all familiar with Git, but let's see how much you know about it! 
     - [ ] Python
     - [ ] Java Development Kit 1.8 or newer
     - [ ] Apache Maven
-    - \[True\] Nothing
+    - Nothing
 
 
 - After you install Git and prior to issuing the first commit, which two configuration properties does the tool expect to be configured?
 
-    - \[True\] username and email address
+    - username and email address
     - [ ] username and password
     - [ ] email address and password
     - [ ] username and IP address
 
 - Which of the following commands is used to create a new Git repository?
 
-    - \[True\] git init
+    - git init
     - [ ] git clone
     - [ ] git commit
     - [ ] git push
@@ -170,13 +170,13 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - Which of the following commands is used to clone a remote Git repository?
 
     - [ ] git init
-    - \[True\] git clone
+    - git clone
     - [ ] git commit
     - [ ] git push
 
 - Which of the following commands is used to stage a file for inclusion in the next commit?
 
-    - \[True\] git add
+    - git add
     - [ ] git commit
     - [ ] git push
     - [ ] git pull
@@ -184,7 +184,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - Which of the following commands is used to commit staged changes to the local repository?
 
     - [ ] git add
-    - \[True\] git commit
+    - git commit
     - [ ] git push
     - [ ] git pull
 
@@ -192,7 +192,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 
     - [ ] git add
     - [ ] git commit
-    - \[True\] git push
+    - git push
     - [ ] git pull
 
 - Who is attributed with inventing Git?
@@ -200,21 +200,19 @@ I know you are all familiar with Git, but let's see how much you know about it! 
     - [ ] Junio Hamano
     - [ ] James Gosling
     - [ ] Kohsuke Kawaguchi
-    - \[True\] Linus Torvalds
+    - Linus Torvalds
 
 - After you initialize a new Git repository and create a file named git-quiz.html, which of the following commands will not work if issued?
 
     - [ ] git add git-quiz.html
     - [ ] git status
-    - [True] git add .
+    - git add .
     - [ ] git commit -m "git quiz web file added"
 
 - Which file can you configure to ensure that certain file types are never committed to the local Git repository?
 
     - [ ] ignore.git
-    - [<div style="border: 1px solid black; padding: 10px;">
-         <span style="color: green">&#10004;</span>
-       </div>] .gitignore
+    - .gitignore
     - [ ] gitignore.txt
     - [ ] git.ignore
 
