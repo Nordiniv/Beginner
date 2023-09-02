@@ -15,21 +15,21 @@ Speaking of *analyzing, cleaning, exploring, and manipulating* data, what functi
 **Fill the table below:**
   
 
-function | what it does | category
------------- | ----------- | ---------
-`astype()` |   |  
-`groupby()` |   |  
-`sort_values()` |   |  
-`pivot_table()` |   |  
-`merge()` |   |  
-`plot()` |   |  
-`corr()` |   |  
-`cov()` |   |  
-`apply()` |   |  
-`loc()` |   |  
-`iloc()` |   |  
-`iterrows()` |   |  
-`aggregate()` |   |
+function | what it does                              | category
+------------ |-------------------------------------------| ---------
+`astype()` | `change type of columns`                  | `C`
+`groupby()` | `groub columns together`                  | `M`
+`sort_values()` | `sorting values of columns`               | `E`
+`pivot_table()` | `                                         | `M`
+`merge()` | `combining two data frames`               | `M`
+`plot()` | `draw a figure`                           | `E`
+`corr()` | `finding correlation between columns`     | `A`
+`cov()` | `cal. covariance`                         | `A`
+`apply()` | `applying specific function to df`        | `M`
+`loc()` | `indexer to locate values using label`    | `E`
+`iloc()` | `indexer uses indexes of rows`            | `E`
+`iterrows()` | `iterate over rows of df`                  | `E`
+`aggregate()` | `applying multiple mathimatics functions` |`A`
 
 $\rightarrow$ You may insert code snippets here if you like!
 
@@ -48,7 +48,14 @@ c = np.vstack((a, b))
 
 print(c[1][2])
 ```
-
+###### vstack() concate two arrays over each other (row)
+```python
+c = [[1, 2, 3],
+     [4, 5, 6]]
+```
+```python
+2
+```
 
 - What is the output of the following code? And why is it so?
 
@@ -59,7 +66,10 @@ c = np.intersect1d(a, b)
 
 print(c)
 ```
-
+###### intersect1d() finds the common values between two arryas which is in this case is none
+```python
+[]
+```
   
 - What is the output of the following code? And why is it so?
 
@@ -70,18 +80,21 @@ c = np.setdiff1d(a, b)
 
 print(c)
 ```
-
+###### setdiff1d() finds values in array1`a` not in array2 `b`
+```python
+[1, 2, 3]
+```
 - Which of the following is a function in NumPy used for carrying out Einstein summations?
 
     - [ ]  `np.tensordot()`
     - [ ]  `np.dot()`
-    - [ ]  `np.einsum()`
+    - [x]  `np.einsum()`
     - [ ]  `np.outer()`
 
 - The `np.outer` function is primarily intended for:
 
     - [ ]  Computing the tensor dot product of two arrays.
-    - [ ]  Computing the outer product of two arrays.
+    - [x]  Computing the outer product of two arrays.
     - [ ]  Computing the inner product of two arrays.
     - [ ]  Computing the cross product of two arrays.
 
@@ -91,21 +104,29 @@ Pandas can be used to visualize data using a wrapper for `matplotlib.pyplot.plot
 
 - What functions can you use to plot data directly from your DataFrame? 🤔
 
+```python
+plt.scatter(), plt.hist(), plt.bar()
+```
 - What is the output of the following code? And why is it so?
 
 ``` python
 df = pd.DataFrame(np.random.randn(10, 4), columns=['a', 'b', 'c', 'd'])
 df.plot.scatter(x='a', y='b')
 ```
+```python
+sctter plot between columns a , b of their random values which will be different every time
+```
 - What do you know about `np.random.randn()`? And how does it depend on `np.random.seed()`?
+> function to generate random numbers from standard normal distribution
 
+> function used to set seed value to get same sequence of numbers every time
 ## Git 🫴🏼
 I know you are all familiar with Git, but let's see how much you know about it! 🤓
 
 - What is the default text editor for the Bash shell with a Windows-based Git install?
 
     - [ ] Emacs
-    - [ ] Vim
+    - [x] Vim
     - [ ] Notepad++
     - [ ] Bash
 
@@ -114,19 +135,19 @@ I know you are all familiar with Git, but let's see how much you know about it! 
     - [ ] Python
     - [ ] Java Development Kit 1.8 or newer
     - [ ] Apache Maven
-    - [ ] Nothing
+    - [x] Nothing
 
 
 - After you install Git and prior to issuing the first commit, which two configuration properties does the tool expect to be configured?
 
-    - [ ] username and email address
+    - [x] username and email address
     - [ ] username and password
     - [ ] email address and password
     - [ ] username and IP address
 
 - Which of the following commands is used to create a new Git repository?
 
-    - [ ] git init
+    - [x] git init
     - [ ] git clone
     - [ ] git commit
     - [ ] git push
@@ -134,13 +155,13 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - Which of the following commands is used to clone a remote Git repository?
 
     - [ ] git init
-    - [ ] git clone
+    - [x] git clone
     - [ ] git commit
     - [ ] git push
 
 - Which of the following commands is used to stage a file for inclusion in the next commit?
 
-    - [ ] git add
+    - [x] git add
     - [ ] git commit
     - [ ] git push
     - [ ] git pull
@@ -148,7 +169,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 - Which of the following commands is used to commit staged changes to the local repository?
 
     - [ ] git add
-    - [ ] git commit
+    - [x] git commit
     - [ ] git push
     - [ ] git pull
 
@@ -156,7 +177,7 @@ I know you are all familiar with Git, but let's see how much you know about it! 
 
     - [ ] git add
     - [ ] git commit
-    - [ ] git push
+    - [x] git push
     - [ ] git pull
 
 - Who is attributed with inventing Git?
@@ -164,29 +185,56 @@ I know you are all familiar with Git, but let's see how much you know about it! 
     - [ ] Junio Hamano
     - [ ] James Gosling
     - [ ] Kohsuke Kawaguchi
-    - [ ] Linus Torvalds
+    - [x] Linus Torvalds
 
 - After you initialize a new Git repository and create a file named git-quiz.html, which of the following commands will not work if issued?
 
     - [ ] git add git-quiz.html
     - [ ] git status
     - [ ] git add .
-    - [ ] git commit -m "git quiz web file added"
+    - [x] git commit -m "git quiz web file added"
 
 - Which file can you configure to ensure that certain file types are never committed to the local Git repository?
 
     - [ ] ignore.git
-    - [ ] .gitignore
+    - [x] .gitignore
     - [ ] gitignore.txt
     - [ ] git.ignore
 
 - Under which circumstance should you use a single dash within a bash command, as opposed to a double dash?
+> single dash (-) followed by single letter represents the command (option) `-v`
 
+> Double dash (--) followed by full word of command `--version`
 - Which vendor acquired GitHub for $7.5 billion in June 2018?
+> Microsoft
 
 You may want to check [this](https://www.youtube.com/watch?v=Q6G-J54vgKc&t=16813s)
 
 ## Problem Solving 🤔
 [A. Panoramix's Prediction](https://codeforces.com/problemset/problem/80/A)
-
+```python
+prims = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59]
+# pattern 1  2  2  4   2   4   2   4   6   2   6   4   2   4   6   6
+n, m = map(int, input().split())
+if 2 <= n <= 50 and 2 <= m <= 50:
+    if n in prims and m == prims[prims.index(n) +1]:
+        print("YES")
+    else:
+        print("NO")
+else:
+    print("NO")
+```
 [A. Again Twenty Five!](https://codeforces.com/problemset/problem/630/A)
+> gets a time limit exceeded on test 3 error
+```python
+n = int(input())
+if n >= 2 | n <= (2 * (10**8)):
+    res = str(5 ** n)
+    print(res[-2:])
+```
+
+```python
+n = int(input())
+print(25)
+
+```
